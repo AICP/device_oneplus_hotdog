@@ -18,6 +18,9 @@ TARGET_OTA_ASSERT_DEVICE := OnePlus7TPro
 # Display
 TARGET_SCREEN_DENSITY := 560
 
+# LMKD
+TARGET_LMKD_STATS_LOG := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig
 
