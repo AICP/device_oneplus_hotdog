@@ -9,6 +9,14 @@
 BOARD_VENDOR := oneplus
 DEVICE_PATH := device/oneplus/hotdog
 
+# A/B
+AB_OTA_PARTITIONS += \
+    odm \
+    product \
+    recovery \
+    system_ext \
+    vbmeta_system
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 

@@ -17,14 +17,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Properties
 -include $(LOCAL_PATH)/system_prop.mk
 
-# A/B
-AB_OTA_PARTITIONS += \
-    odm \
-    product \
-    recovery \
-    system_ext \
-    vbmeta_system
-
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_pahu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_pahu.xml \
