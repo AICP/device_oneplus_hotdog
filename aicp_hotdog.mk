@@ -34,4 +34,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlus7TPro \
     PRODUCT_NAME=OnePlus7TPro
 
+# AICP Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Julian Veit (Claymore1297),Michele B (Miccia)"
+
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
