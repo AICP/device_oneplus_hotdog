@@ -24,6 +24,10 @@ PRODUCT_BRAND := OnePlus
 PRODUCT_SYSTEM_NAME := OnePlus7TPro
 PRODUCT_SYSTEM_DEVICE := OnePlus7TPro
 
+# AICP Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Julian Veit (Claymore1297),Ralf Luther (wartomato)"
+
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
