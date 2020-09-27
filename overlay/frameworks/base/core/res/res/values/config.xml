@@ -326,6 +326,14 @@
         <item>14000</item>
     </integer-array>
 
+    <!-- System info -->
+    <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone10/temp</string>
+    <integer name="config_sysCPUTempMultiplier">1000</integer>
+    <string name="config_sysGPUFreq">/sys/devices/platform/soc/2c00000.qcom,kgsl-3d0/kgsl/kgsl-3d0/clock_mhz</string>
+    <string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>
+    <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
+    <integer name="config_sysBatteryTempMultiplier">10</integer>
+
     <!-- Screen brightness used to dim the screen when the user activity
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
