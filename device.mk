@@ -14,6 +14,9 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-aicp
 
+# Properties
+-include $(LOCAL_PATH)/system_prop.mk
+
 # A/B
 AB_OTA_PARTITIONS += \
     odm \
