@@ -29,4 +29,7 @@
 
     <!-- Allow device to use unordinary cutout overlays -->
     <bool name="config_customCutout">true</bool>
+
+    <!-- Doze: does this device support STATE_DOZE?  -->
+    <bool name="doze_display_state_supported">true</bool>
 </resources>
