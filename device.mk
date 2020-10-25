@@ -40,7 +40,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.recovery.hotdog.rc \
-    setup_logical.sh
+    setup_logical.sh \
+    init.aicp-sm8150.rc
 
 # fastbootd
 PRODUCT_PACKAGES += \
