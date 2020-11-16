@@ -16,6 +16,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Properties
 -include $(LOCAL_PATH)/system_prop.mk
+-include $(LOCAL_PATH)/vendor_props.mk
 
 # A/B
 AB_OTA_PARTITIONS += \
