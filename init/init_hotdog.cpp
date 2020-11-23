@@ -67,7 +67,7 @@ void vendor_load_properties()
         for (const auto &source : ro_product_props_default_source_order) {
             set_ro_product_prop(source, "brand", "OnePlus");
             set_ro_product_prop(source, "device", "OnePlus7TPro");
-            set_ro_product_prop(source, "manufacturer", "OnePlus");
+            set_ro_product_prop(source, "manufacturer", "OPD");
         }
         property_override("ro.build.product", "OnePlus7TPro");
         property_override("ro.display.series", "OnePlus 7T Pro");
@@ -82,7 +82,7 @@ void vendor_load_properties()
             for (const auto &source : ro_product_props_default_source_order) {
                 set_ro_product_prop(source, "name", "OnePlus7TPro_EEA");
             }
-            property_override("ro.build.description", "OnePlus7TPro_EEA-user 10 QKQ1.190716.003 1910120055 release-keys");
+            property_override("ro.build.description", "OnePlus7TPro_EEA-user 10 QKQ1.190716.003 2009281542 release-keys");
         } else if (rf_version == 5) {
             /* We are global */
             for (const auto &source : ro_product_props_default_source_order) {
@@ -94,7 +94,7 @@ void vendor_load_properties()
             for (const auto &source : ro_product_props_default_source_order) {
                 set_ro_product_prop(source, "name", "OnePlus7TPro");
             }
-            property_override("ro.build.description", "OnePlus7TPro-user 10 QKQ1.190716.003 1910120055 release-keys");
+            property_override("ro.build.description", "OnePlus7TPro-user 10 QKQ1.190716.003 2009281542 release-keys");
         } else {
         /* Default to global */
             for (const auto &source : ro_product_props_default_source_order) {
@@ -106,7 +106,7 @@ void vendor_load_properties()
             for (const auto &source : ro_product_props_default_source_order) {
                 set_ro_product_prop(source, "name", "OnePlus7TPro");
             }
-            property_override("ro.build.description", "OnePlus7TPro-user 10 QKQ1.190716.003 1910120055 release-keys");
+            property_override("ro.build.description", "OnePlus7TPro-user 10 QKQ1.190716.003 2009281542 release-keys");
         }
     }
     property_override("ro.boot.flash.locked", "1");
