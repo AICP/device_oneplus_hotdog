@@ -119,7 +119,6 @@ void vendor_load_properties()
     property_override("ro.build.selinux", "1");
     property_override("ro.build.tags", "release-keys");
     property_override("ro.build.type", "user");
-    property_override("ro.debuggable", "0");
     property_override("ro.secure", "1");
     property_override("ro.vendor.build.release_type", "release");
     property_override("ro.vendor.build.type", "user");
