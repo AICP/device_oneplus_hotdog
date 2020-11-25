@@ -34,10 +34,6 @@ PRODUCT_PACKAGES += \
     setup_logical.sh \
     init.aicp-sm8150.rc
 
-# JamesDSP
-PRODUCT_PACKAGES += \
-    JamesDSPManager
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
 
