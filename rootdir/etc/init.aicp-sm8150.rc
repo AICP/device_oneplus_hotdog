@@ -82,6 +82,16 @@ on boot
     chown system system /proc/touchpanel/letter_s_enable
     chmod 0660 /proc/touchpanel/letter_s_enable
 
+    # Wake Gestures
+#    chown system system /sys/android_touch/doubletap2wake
+#    chmod 0664 /sys/android_touch/doubletap2wake
+
+    chown system system /sys/android_touch/sweep2sleep
+    chmod 0664 /sys/android_touch/sweep2sleep
+
+    chown system system /sys/android_touch/sweep2wake
+    chmod 0664 /sys/android_touch/sweep2wake
+
 on post-fs
     # Vibrator
     chown system system /sys/devices/platform/soc/89c000.i2c/i2c-2/2-005a/leds/vibrator/level
