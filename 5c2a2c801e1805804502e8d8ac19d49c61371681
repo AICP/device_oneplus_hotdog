@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "13e74a9a_f84bac63",
+        "filename": "aicp.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 774
+      },
+      "writtenOn": "2021-02-13T23:34:14Z",
+      "side": 1,
+      "message": "remove the comma",
+      "range": {
+        "startLine": 4,
+        "startChar": 49,
+        "endLine": 4,
+        "endChar": 50
+      },
+      "revId": "5c2a2c801e1805804502e8d8ac19d49c61371681",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
