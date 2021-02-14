@@ -1,6 +1,6 @@
 # Device Tree for OnePlus 7T Pro (hotdog)
 
-The OnePlus 7 Pro (codenamed _"hotdog"_) is a flagship smartphone from OnePlus.
+The OnePlus 7T Pro (codenamed _"hotdog"_) is a flagship smartphone from OnePlus.
 It was released in October 2019.
 
 | Basic                   | Spec Sheet                                                                                                                     |
@@ -9,12 +9,12 @@ It was released in October 2019.
 | Chipset                 | Qualcomm SM8150 Snapdragon 855+ (7 nm)                                                                                         |
 | GPU                     | Adreno 640                                                                                                                     |
 | Memory                  | 8/12 GB RAM                                                                                                                    |
-| Shipped Android Version | 9.0 (_"Pie"_) / OxygenOS 10 (_"Q"_)                                                                                            |
+| Shipped Android Version | OxygenOS 10 (_Android "Q"_)                  |
 | Storage                 | 256 GB                                                                                                                         |
 | Battery                 | Non-removable Li-Po 4085 mAh battery                                                                                           |
 | Display                 | Fluid AMOLED capacitive touchscreen, 16M colors, 6.67 inches, 1440 x 3120 pixels, 19.5:9 ratio (~516 ppi density)              |
 | Camera (Back)           | Triple setup: 48 MP (f/1.6, wide, 1/2", 0.8µm, PDAF, Laser AF, OIS) + 8 MP (f/2.4, 78mm, telephoto, 3x optical zoom,           |
-|                         | PDAF, Laser AF, OIS) + 16 MP (f/2.2, 13mm, ultrawide, AF), Dual-LED flash, panorama, HDR, 2160p@30/60fps, 1080p@30/60/240fps,  |
+|                         | PDAF, Laser AF, OIS) + 16 MP (f/2.2, 13mm, ultrawide, AF), Dual-LED flash, Panorama, HDR, 2160p@30/60fps, 1080p@30/60/240fps,  |
 |                         | 720p@480fps, Auto HDR, gyro-EIS                                                                                                |
 | Camera (Front)          | Motorized pop-up 16 MP, f/2.0, 25mm (wide), 1/3.0", 1.0µm, Auto-HDR, 1080p@30fps, gyro-EIS                                     |
 
