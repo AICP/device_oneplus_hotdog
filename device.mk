@@ -34,10 +34,6 @@ PRODUCT_PACKAGES += \
     setup_logical.sh \
     init.aicp-sm8150.rc
 
-# fastbootd
-PRODUCT_PACKAGES += \
-    fastbootd
-
 # JamesDSP
 PRODUCT_PACKAGES += \
     JamesDSPManager
