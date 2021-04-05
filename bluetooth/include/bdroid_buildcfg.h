@@ -29,6 +29,7 @@
 #define HID_DEV_MTU_SIZE 192
 
 #define BLE_VND_INCLUDED   TRUE
+#define BLUETOOTH_QTI_SW   TRUE
 // skips conn update at conn completion
 #define BT_CLEAN_TURN_ON_DISABLED 1
 #endif
