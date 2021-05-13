@@ -35,6 +35,9 @@
     <!-- Whether device provides panel options -->
     <bool name="config_device_supports_panels">true</bool>
 
+    <!-- Whether device supports vibration options -->
+    <bool name="config_device_supports_vibrations">true</bool>
+
     <!-- Path to devices single-tap toggle file -->
     <string name="pathSTapToggle">/proc/touchpanel/single_tap_enable</string>
 
