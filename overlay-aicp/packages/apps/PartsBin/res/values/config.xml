@@ -29,6 +29,9 @@
     <!-- Whether device supports panoramic SoundTuner -->
     <bool name="config_device_supports_soundtuner">true</bool>
 
+    <!-- Whether device supports offscreen gestures -->
+    <bool name="config_device_supports_gestures">true</bool>
+
     <!-- Path to devices single-tap toggle file -->
     <string name="pathSTapToggle">/proc/touchpanel/single_tap_enable</string>
 
