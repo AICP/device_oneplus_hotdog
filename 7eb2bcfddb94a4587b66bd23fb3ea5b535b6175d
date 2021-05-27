@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f4d4c8a_d0087f18",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2021-05-27T22:43:16Z",
+      "side": 1,
+      "message": "Drawable is from Vasilj. So authorship and credits goes there.",
+      "revId": "7eb2bcfddb94a4587b66bd23fb3ea5b535b6175d",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
