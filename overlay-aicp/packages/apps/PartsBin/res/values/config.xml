@@ -38,6 +38,15 @@
     <!-- Whether device supports vibration options -->
     <bool name="config_device_supports_vibrations">true</bool>
 
+    <!-- Dolby atmos package -->
+    <string name="dolby_atmos_packagename">com.dolby.daxservice</string>
+
+    <!-- Sound tuner package -->
+    <string name="sound_tuner_packagename">com.oneplus.sound.tuner</string>
+
+    <!-- Dolby atmos classname -->
+    <string name="dolby_atmos_classname">com.oneplus.sound.tuner.panoramic.DolbyPanoramicSoundActivity</string>
+
     <!-- Path to devices single-tap toggle file -->
     <string name="pathSTapToggle">/proc/touchpanel/single_tap_enable</string>
 
