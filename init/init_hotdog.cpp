@@ -88,7 +88,7 @@ void vendor_load_properties()
                 set_ro_product_prop(source, "model", "HD1913");
             }
             for (const auto &source : ro_fingerprints_default_source_order) {
-                set_ro_fingerprint(source, "google/coral/coral:11/RP1A.210105.003/7005429:user/release-keys");
+                set_ro_fingerprint(source, "google/coral/coral:11/RQ3A.210805.001.A1/7474174:user/release-keys");
             }
             for (const auto &source : ro_product_props_default_source_order) {
                 set_ro_product_prop(source, "name", "OnePlus7TPro_EEA");
@@ -100,7 +100,7 @@ void vendor_load_properties()
                 set_ro_product_prop(source, "model", "HD1917");
             }
             for (const auto &source : ro_fingerprints_default_source_order) {
-                set_ro_fingerprint(source, "google/coral/coral:11/RP1A.210105.003/7005429:user/release-keys");
+                set_ro_fingerprint(source, "google/coral/coral:11/RQ3A.210805.001.A1/7474174:user/release-keys");
             }
             for (const auto &source : ro_product_props_default_source_order) {
                 set_ro_product_prop(source, "name", "OnePlus7TPro");
@@ -112,7 +112,7 @@ void vendor_load_properties()
                 set_ro_product_prop(source, "model", "HD1917");
             }
             for (const auto &source : ro_fingerprints_default_source_order) {
-                set_ro_fingerprint(source, "google/coral/coral:11/RP1A.210105.003/7005429:user/release-keys");
+                set_ro_fingerprint(source, "google/coral/coral:11/RQ3A.210805.001.A1/7474174:user/release-keys");
             }
             for (const auto &source : ro_product_props_default_source_order) {
                 set_ro_product_prop(source, "name", "OnePlus7TPro");
