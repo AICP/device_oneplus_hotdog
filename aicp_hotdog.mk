@@ -47,4 +47,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DEVICE_MAINTAINERS="Julian Veit (Claymore1297),Michele Bono (Miccia94)"
 
+
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
