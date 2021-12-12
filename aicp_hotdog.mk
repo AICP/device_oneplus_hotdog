@@ -48,6 +48,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DEVICE_MAINTAINERS="Julian Veit (Claymore1297),Michele Bono (Miccia94)"
 
 PRODUCT_OVERRIDE_INFO := true
-PRODUCT_OVERRIDE_FINGERPRINT := google/coral/coral:12/SP1A.211105.002/7743617:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/coral/coral:12/SQ1A.211205.008/7888514:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
