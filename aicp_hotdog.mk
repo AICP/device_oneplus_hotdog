@@ -37,7 +37,11 @@ TARGET_BOOTANIMATION_HALF_RES := true
 BUILD_FINGERPRINT := "OnePlus/OnePlus7TPro/OnePlus7TPro:11/RKQ1.201022.002/2106290959:user/release-keys"
 
 PRODUCT_OVERRIDE_INFO := true
+<<<<<<< HEAD   (b4301a hotdog: update fingerprint to January 2022 (A12))
 PRODUCT_OVERRIDE_FINGERPRINT := google/coral/coral:12/SQ1A.220105.002/7961164:user/release-keys
+=======
+PRODUCT_OVERRIDE_FINGERPRINT := google/coral/coral:12/SP2A.220305.012/8177914/8010174:user/release-keys
+>>>>>>> CHANGE (4a1ce1 hotdog: Bump security string to march 2022 (A12))
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlus7TPro \
