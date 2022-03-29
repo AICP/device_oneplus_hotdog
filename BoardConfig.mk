@@ -27,9 +27,6 @@ TARGET_SCREEN_DENSITY := 560
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_hotdog
 TARGET_RECOVERY_DEVICE_MODULES := libinit_hotdog
 
-# Kernel
-TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig
-
 # LMKD
 TARGET_LMKD_STATS_LOG := true
 
