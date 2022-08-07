@@ -73,7 +73,7 @@ void vendor_load_properties()
             for (const auto &source : ro_product_props_default_source_order) {
                 set_ro_product_prop(source, "name", "OnePlus7TPro_EEA");
             }
-            property_override("ro.build.description", "OnePlus7TPro_EEA-user 11 RKQ1.201022.002 2205311142 release-keys");
+            property_override("ro.build.description", "OnePlus7TPro_EEA-user 11 RKQ1.201022.002 2206171336 release-keys");
         } else if (rf_version == 5) {
             /* We are global */
             for (const auto &source : ro_product_props_default_source_order) {
@@ -82,7 +82,7 @@ void vendor_load_properties()
             for (const auto &source : ro_product_props_default_source_order) {
                 set_ro_product_prop(source, "name", "OnePlus7TPro");
             }
-            property_override("ro.build.description", "OnePlus7TPro-user 11 RKQ1.201022.002 2205311142 release-keys");
+            property_override("ro.build.description", "OnePlus7TPro-user 11 RKQ1.201022.002 2206171336 release-keys");
         } else {
         /* Default to global */
             for (const auto &source : ro_product_props_default_source_order) {
@@ -91,7 +91,7 @@ void vendor_load_properties()
             for (const auto &source : ro_product_props_default_source_order) {
                 set_ro_product_prop(source, "name", "OnePlus7TPro");
             }
-            property_override("ro.build.description", "OnePlus7TPro-user 11 RKQ1.201022.002 2205311142 release-keys");
+            property_override("ro.build.description", "OnePlus7TPro-user 11 RKQ1.201022.002 2206171336 release-keys");
         }
     }
     property_override("ro.boot.flash.locked", "1");
