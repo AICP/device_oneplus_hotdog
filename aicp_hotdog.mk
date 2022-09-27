@@ -17,9 +17,9 @@ $(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aicp_hotdog
 PRODUCT_DEVICE := hotdog
-PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := HD1917
 PRODUCT_MANUFACTURER := OnePlus
+PRODUCT_MODEL := HD1917
+PRODUCT_BRAND := OnePlus
 
 TARGET_VENDOR_PRODUCT_NAME := OnePlus7TPro
 TARGET_VENDOR_DEVICE_NAME := OnePlus7TPro
@@ -53,3 +53,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="OnePlus7TPro-user 11 RKQ1.201022.002 2206171336 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="OnePlus7TPro_EEA-user 10 QKQ1.190716.003 1910120055 release-keys" \
+    TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
+    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
+
+BUILD_FINGERPRINT := OnePlus/OnePlus7TPro_EEA/OnePlus7TPro:10/QKQ1.190716.003/1910120055:user/release-keys

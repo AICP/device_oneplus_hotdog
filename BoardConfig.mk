@@ -4,9 +4,10 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+
+# Include the common OEM chipset BoardConfig.
 -include device/oneplus/sm8150-common/BoardConfigCommon.mk
 
-BOARD_VENDOR := oneplus
 DEVICE_PATH := device/oneplus/hotdog
 
 # A/B
@@ -69,3 +70,5 @@ BOARD_AVB_VBMETA_SYSTEM_ALGORITHM := SHA256_RSA2048
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 1
 
+# Include the proprietary files BoardConfig.
+-include vendor/oneplus/hotdog/BoardConfigVendor.mk
