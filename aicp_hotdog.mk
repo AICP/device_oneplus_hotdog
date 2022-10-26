@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/hotdog/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_hotdog
+PRODUCT_NAME := aicp_hotdog
 PRODUCT_DEVICE := hotdog
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_MODEL := HD1911
@@ -25,6 +25,10 @@ PRODUCT_SYSTEM_NAME := OnePlus7TPro
 PRODUCT_SYSTEM_DEVICE := OnePlus7TPro
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+
+# AICP Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Julian Veit (Claymore1297),Ralf Luther (wartomato)"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="OnePlus7TPro-user 12 SKQ1.211113.001 Q.202210112115 release-keys" \
