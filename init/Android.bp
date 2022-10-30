@@ -9,3 +9,11 @@ prebuilt_etc {
     vendor: true,
     ramdisk_available: true,
 }
+
+prebuilt_etc {
+    name: "init.aicp-sm8150.rc",
+    src: "init.aicp-sm8150.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
