@@ -25,6 +25,7 @@ PRODUCT_PACKAGES += \
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    init.aicp-sm8150.rc \
     fstab.qcom.ramdisk
 
 # Overlays
