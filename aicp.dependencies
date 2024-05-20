@@ -1,4 +1,11 @@
 [
+{
+    "remote":      "gitlab",
+    "repository":  "the-muppets/proprietary_vendor_firmware/hotdog",
+    "target_path": "vendor/firmware/hotdog",
+    "clone-depth": "1",
+    "branch":      "lineage-20"
+  },
   {
     "repository":  "AICP/device_oneplus_sm8150-common",
     "target_path": "device/oneplus/sm8150-common"
