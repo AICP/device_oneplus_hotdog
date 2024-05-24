@@ -19,8 +19,8 @@ TARGET_SCREEN_HEIGHT := 3120
 TARGET_SCREEN_WIDTH := 1440
 
 # Camera
-PRODUCT_PACKAGES += \
-    OnePlusCameraHelper
+#PRODUCT_PACKAGES += \
+#    OnePlusCameraHelper
 
 # Device init scripts
 PRODUCT_PACKAGES += \
