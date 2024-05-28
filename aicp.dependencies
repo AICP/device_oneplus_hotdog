@@ -1,8 +1,8 @@
 [
 {
     "remote":      "gitlab",
-    "repository":  "the-muppets/proprietary_vendor_firmware/hotdog",
-    "target_path": "vendor/firmware/hotdog",
+    "repository":  "the-muppets/proprietary_vendor_firmware",
+    "target_path": "vendor/firmware",
     "clone-depth": "1",
     "branch":      "lineage-20"
   },
