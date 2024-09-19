@@ -48,6 +48,9 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Inherit GApps, if exists
+$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
+
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/oneplus/sm8150-common/common.mk)
 
