@@ -31,3 +31,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=OnePlus7TPro \
     SystemDevice=OnePlus7TPro \
     SystemName=OnePlus7TPro
+
+# AICP Device Maintainers
+DEVICE_MAINTAINERS := "Julian Veit (Claymore1297)"
+
